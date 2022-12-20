@@ -8,6 +8,9 @@ SPDX-License-Identifier: Unlicense
 
 This is an implementation of the AEIOU keyboard layout; the first Spanish optimized keyboard layout ever made.
 
+![aeiou](https://github.com/germe-deb/aeiou-linux/raw/main/aeiou preview.png)
+
+
 AEIOU doesn't have any linux compatibility by the moment, but I made an implementation for linux with some changes like symbol positions, and a custom 3rd and 4th level.
 
 the most custom part about it is the symbols. It doesn't respect at all any of the original positions, but it only moves the numbers to the second level.
