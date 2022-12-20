@@ -1,0 +1,60 @@
+// Latin American AEIOU Keyboard
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]="Spanish AEIOU";
+
+    key <TLDE> {[        bar, degree,    notsign,      notsign ]};
+    key <AE01> {[ apostrophe, 1,             bar,   exclamdown ]};
+    key <AE02> {[   quotedbl, 2,              at,    oneeighth ]};
+    key <AE03> {[ numbersign, 3,  periodcentered,     sterling ]};
+    key <AE04> {[     dollar, 4,      asciitilde,       dollar ]};
+    key <AE05> {[    percent, 5,         onehalf, threeeighths ]};
+    key <AE06> {[  ampersand, 6,         notsign,  fiveeighths ]};
+    key <AE07> {[      slash, 7,       braceleft, seveneighths ]};
+    key <AE08> {[  parenleft, 8,     bracketleft,    trademark ]};
+    key <AE09> {[ parenright, 9,    bracketright,    plusminus ]};
+    key <AE10> {[      equal, 0,      braceright,       degree ]};
+    key <AE11> {[  exclam, exclamdown, backslash, questiondown ]};
+    key <AE12> {[ question, questiondown, dead_cedilla, dead_ogonek ]};
+
+    key <AD01> {[      y, Y,     Greek_OMEGA                 ]};
+    key <AD02> {[      u, U,           U017F,        section ]};
+    key <AD03> {[      h, H,        EuroSign,           cent ]};
+    key <AD04> {[      b, B,           U2022,          U03B2 ]};
+    key <AD05> {[ uacute, Uacute,    uparrow                 ]};
+    key <AD06> {[ ntilde, Ntilde,  leftarrow,            yen ]};
+    key <AD07> {[      c, C,       downarrow                 ]};
+    key <AD08> {[      l, L,      rightarrow                 ]};
+    key <AD09> {[      d, D,          oslash,       Ooblique ]};
+    key <AD10> {[      p, P,           thorn,          THORN ]};
+    key <AD11> {[      x, X,  dead_diaeresis, dead_abovering ]};
+    key <AD12> {[      w, W,      asciitilde,    dead_macron ]};
+
+    key <AC01> {[      i, I,                 mu,        U00BA ]};
+    key <AC02> {[      o, O,                 ae,           AE ]};
+    key <AC03> {[      a, A,              U00AA               ]};
+    key <AC04> {[      e, E,            dstroke,      Dstroke ]};
+    key <AC05> {[  comma, semicolon,     tslash,       Tslash ]};
+    key <AC06> {[ period, colon,        hstroke,      Hstroke ]};
+    key <AC07> {[      n, N,              minus,   underscore ]};
+    key <AC08> {[      s, S,               plus,     asterisk ]};
+    key <AC09> {[      r, R,            lstroke,      Lstroke ]};
+    key <AC10> {[      t, T,         asciitilde,        U2192 ]};
+    key <AC11> {[      v, V,         dead_acute,    braceleft ]};
+    key <BKSL> {[      k, K,         dead_grave,   braceright ]};
+
+    key <LSGT> {[ udiaeresis, Udiaeresis,    U00A6                ]};
+    key <AB01> {[     iacute, Iacute, guillemotleft,         less ]};
+    key <AB02> {[     oacute, Oacute, guillemotright,     greater ]};
+    key <AB03> {[     aacute, Aacute,         cent,     copyright ]};
+    key <AB04> {[     eacute, Eacute                              ]};
+    key <AB05> {[          z, Z                                   ]};
+    key <AB06> {[          g, G                                   ]};
+    key <AB07> {[          m, M                                   ]};
+    key <AB08> {[          q, Q,             U2022,      multiply ]};
+    key <AB09> {[          j, J,    periodcentered,      division ]};
+    key <AB10> {[          f, F,     dead_belowdot, dead_abovedot ]};
+    include "level3(ralt_switch)"
+};
+
