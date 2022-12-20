@@ -33,16 +33,22 @@ if you have a latin american keyboard, you use linux and want to try AEIOU, you'
       </configItem>
     </layout>
 ```
-      * this requires you to understand how xml files are. you are adding a new entry on this file, that allows us to show aeiou in our settings app.
+
+      * don't make mistakes here!!!
+
 * restart your session (or reboot your computer)
 * go to settings, keyboard, and add the new layout. I will don't detail this step because it depends on what desktop you're using. gnome is pretty straightforward in this case, pantheon too and maybe even kde, but xfce is another story.
 
 That's it. if you made the installation correctly, you have aeiou installed and ready to use.
 
 here is a screenshot of how I have the evdev.xml file
+
 ![evdev](https://github.com/germe-deb/aeiou-linux/raw/main/xkbevdev.png)
+
 here is another screenshot, showing that the file aeiou is on that directory
+
 ![directory](https://github.com/germe-deb/aeiou-linux/raw/main/xkbfiles.png)
+
 Note: the aeiou file is plain text, or C I think, but you can open that file with any editor, being vim, gnome-text-editor, micro, etc.
 
 the original repository is https://github.com/NickG13/AEIOU
