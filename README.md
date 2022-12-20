@@ -40,9 +40,9 @@ if you have a latin american keyboard, you use linux and want to try AEIOU, you'
 That's it. if you made the installation correctly, you have aeiou installed and ready to use.
 
 here is a screenshot of how I have the evdev.xml file
-
+![evdev](https://github.com/germe-deb/aeiou-linux/raw/main/xkbevdev.png)
 here is another screenshot, showing that the file aeiou is on that directory
-
+![directory](https://github.com/germe-deb/aeiou-linux/raw/main/xkbfiles.png)
 Note: the aeiou file is plain text, or C I think, but you can open that file with any editor, being vim, gnome-text-editor, micro, etc.
 
 the original repository is https://github.com/NickG13/AEIOU
