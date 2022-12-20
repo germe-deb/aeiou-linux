@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2022 debgerme <fossgerme@tuta.io>
+
+SPDX-License-Identifier: Unlicense
+-->
+
 # AEIOU for linux
 
 This is an implementation of the AEIOU keyboard layout; the first Spanish optimized keyboard layout ever made.
