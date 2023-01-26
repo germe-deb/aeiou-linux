@@ -26,8 +26,8 @@ if you have a latin american keyboard, you use linux and want to try AEIOU, you'
 * clone this repo.
 * copy the `aeiou` file to `/usr/share/X11/xkb/symbols/` directory
 * open your text editor and edit the file `/usr/share/X11/xkb/rules/evdev.xml`
-      * find the first `<layout>` (it is near the line 1300)
-      * add the next piece of xml code to the file:
+* find the first `<layout>` (it is near the line 1300)
+* add the next piece of xml code to the file:
 ```
     <layout>
       <configItem>
